@@ -1,0 +1,18 @@
+package mapper;
+
+import java.util.List;
+
+import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
+
+import com.microservice.organization.models.Organization;
+
+import dto.OrganizationDTO;
+
+@Mapper(componentModel = "spring")
+public interface OrganizationMapper {
+
+    OrganizationDTO toDto(List<Organization> organization);
+    Organization toEntity(OrganizationDTO organizationDTO);
+    
+}

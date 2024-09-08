@@ -1,0 +1,39 @@
+package service;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.stream.Collectors;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.microservice.organization.models.Organization;
+
+import dto.OrganizationDTO;
+import lombok.RequiredArgsConstructor;
+import mapper.OrganizationMapper;
+import repository.OrganizationRepository;
+
+@Service
+@RequiredArgsConstructor
+public class OrganizationServiceImpl implements OrganizationService {
+	
+	@Autowired
+	OrganizationMapper mapper;
+	
+	@Autowired
+	OrganizationRepository repository;
+
+	@Override
+	public OrganizationDTO addOrganization(OrganizationDTO dto) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<OrganizationDTO> getAll() {
+		 Iterator<Organization> organization = repository.findAll().iterator();
+		 return null;
+	}
+
+}

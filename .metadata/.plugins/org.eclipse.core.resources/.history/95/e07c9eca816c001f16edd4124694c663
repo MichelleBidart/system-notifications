@@ -1,0 +1,15 @@
+package mapper;
+
+import com.microservice.organization.models.Organization;
+
+import dto.OrganizationDTO;
+import org.mapstruct.Mapper;
+import org.mapstruct.factory.Mappers;
+
+@Mapper
+public class OrganizationMapper {
+    OrganizationMapper INSTANCE = Mappers.getMapper(OrganizationMapper.class);
+
+    OrganizationDTO toDto(Organization organization);
+    Organization toEntity(OrganizationDTO organizationDTO);
+}

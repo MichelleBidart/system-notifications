@@ -1,0 +1,66 @@
+1725643121131	Delete element
+1725643168602	Rename package 'com.microservice.organization.entity'
+1725649017805	Delete element
+1725664535565	Move file
+1725664613572	Rename resource 'application-dev.yml'
+1725664749697	Delete element
+1725664865390	Rename resource 'application.properties'
+1725664901220	Move file
+1725669944993	Rename resource 'application.yml'
+1725669952627	Delete element
+1725669959602	Delete element
+1725670017244	Move folder
+1725670022455	Move file
+1725673178985	Rename resource 'application.properties'
+1725676285364	Rename resource 'src'
+1725676306485	Rename resource 'srcs'
+1725676325856	Rename resource 'src'
+1725676345257	Rename resource 'srcs'
+1725676592399	Delete element
+1725676729125	Rename package 'controller'
+1725676773793	Rename package 'dto'
+1725676785986	Rename package 'mapper'
+1725676798191	Rename package 'repository'
+1725676817000	Rename package 'service'
+1725677205865	Rename package 'com.microservice.organization.mapper'
+1725677272702	Rename package 'com.microservice.organization.service'
+1725677284272	Rename package 'com.microservice.organization.models'
+1725677296967	Rename package 'com.microservice.organization.repository'
+1725677304339	Rename package 'com.microservice.organization.dto'
+1725677334679	Rename package 'com.microservice.organization.controller'
+1725677442522	Copy packages
+1725677451109	Delete element
+1725677455022	Delete element
+1725677458702	Delete element
+1725677462042	Delete element
+1725677471654	Delete element
+1725677481233	Delete element
+1725677525390	Copy package
+1725677531534	Delete element
+1725677674806	Delete element
+1725677775897	Copy package
+1725677802857	Delete element
+1725677817233	Copy package
+1725677825863	Delete element
+1725677832486	Move compilation unit
+1725677840972	Delete element
+1725678075755	Move compilation unit
+1725678317993	Move compilation units
+1725678336089	Move compilation units
+1725678342258	Delete element
+1725678381826	Move compilation unit
+1725678401843	Move compilation unit
+1725678409560	Delete element
+1725678416488	Move compilation unit
+1725678419943	Copy compilation unit
+1725678425816	Move compilation unit
+1725678461784	Move compilation unit
+1725678475301	Move compilation unit
+1725678483142	Delete element
+1725678510509	Delete element
+1725678516218	Move compilation unit
+1725678530598	Move compilation unit
+1725678535055	Delete element
+1725678540915	Move compilation unit
+1725678544909	Delete element
+1725678560568	Move compilation unit

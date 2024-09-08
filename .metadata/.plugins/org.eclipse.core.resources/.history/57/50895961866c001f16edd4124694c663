@@ -1,0 +1,13 @@
+package service;
+
+
+import dto.OrganizationDTO;
+
+public interface OrganizationService {
+			
+	OrganizationDTO  addOrganization(OrganizationDTO dto);
+	
+	OrganizationDTO getAll();
+	
+	
+}

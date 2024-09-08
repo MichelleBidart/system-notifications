@@ -1,0 +1,11 @@
+package service;
+
+public interface OrganizationService {
+	
+	   @Autowired
+	    private OrganizationRepository repository;
+
+	    @Autowired
+	    private OrganizationMapper mapper;
+
+}

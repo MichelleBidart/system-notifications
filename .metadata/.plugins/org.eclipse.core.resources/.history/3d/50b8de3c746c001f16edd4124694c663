@@ -1,0 +1,5 @@
+package com.microservice.organization.models;
+
+public class Organization {
+
+}

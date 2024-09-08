@@ -1,0 +1,9 @@
+package repository.copy;
+
+import org.springframework.data.repository.CrudRepository;
+
+import models.Organization;
+
+public interface OrganizationRepository extends CrudRepository<Organization, Long> {
+	
+}

@@ -1,0 +1,8 @@
+package repository.copy;
+
+public class Snippet {
+	public static void main(String[] args) {
+		com.microservice.organization
+	}
+}
+

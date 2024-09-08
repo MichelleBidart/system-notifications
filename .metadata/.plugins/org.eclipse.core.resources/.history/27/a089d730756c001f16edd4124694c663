@@ -1,0 +1,14 @@
+package com.microservice.organization.models;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Organization {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    
+    private String name;
+    private String contactEmail;
+    private String phoneNumber;

@@ -1,0 +1,14 @@
+package service.copy;
+
+
+import java.util.List;
+
+import dto.OrganizationDTO;
+
+public interface OrganizationService {
+			
+	OrganizationDTO  addOrganization(OrganizationDTO dto);
+	
+	List<OrganizationDTO> getAll();
+		
+}

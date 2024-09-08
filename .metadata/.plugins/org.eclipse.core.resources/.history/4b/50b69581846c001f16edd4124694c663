@@ -1,0 +1,11 @@
+package service;
+
+import com.microservice.organization.models.Organization;
+
+import dto.OrganizationDTO;
+
+public interface OrganizationService {
+			
+	OrganizationDTO  addOrganization(OrganizationDTO dto);
+
+}
