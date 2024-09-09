@@ -1,7 +1,0 @@
-FROM openjdk:17-jdk-slim
-
-WORKDIR /app
-
-COPY ./organization-service.jar /app/organization-service.jar
-
-ENTRYPOINT ["java", "-jar", "organization-service.jar"]

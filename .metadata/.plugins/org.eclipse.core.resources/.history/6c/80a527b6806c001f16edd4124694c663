@@ -1,9 +1,0 @@
-package mapper;
-
-@Mapper
-public class OrganizationMapper {
-    OrganizationMapper INSTANCE = Mappers.getMapper(OrganizationMapper.class);
-
-    OrganizationDTO toDto(Organization organization);
-    Organization toEntity(OrganizationDTO organizationDTO);
-}

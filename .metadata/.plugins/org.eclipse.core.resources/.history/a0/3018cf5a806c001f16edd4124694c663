@@ -1,8 +1,0 @@
-package dto;
-
-@Data
-public class OrganizationDTO {
-    private Long id;
-    private String name;
-    private String contactEmail;
-    private String phoneNumber;

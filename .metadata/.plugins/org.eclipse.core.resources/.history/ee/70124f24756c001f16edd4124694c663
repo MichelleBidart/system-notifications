@@ -1,8 +1,0 @@
-package com.microservice.organization.models;
-
-import jakarta.persistence.Entity;
-
-@Entity
-public class Organization {
-
-}

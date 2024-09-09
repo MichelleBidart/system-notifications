@@ -1,9 +1,0 @@
-package repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.microservice.organization.models.Organization;
-
-public interface OrganizationRepository extends CrudRepository<Organization, Long> {
-	
-}
